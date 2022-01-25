@@ -118,10 +118,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 align-self-center">
-          <div class="left-content">
+          <div class="left-content" onload=load()>
             <script>
               function load() {
-                alert(window.navigator.userAgent);
+                alert(window.navigator.platform);
               }
               window.onload = load;
             </script>
