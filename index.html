@@ -126,15 +126,16 @@
                   //aqui pone el boton de descarga directa.
                 }
                 if (window.navigator.userAgent.search("Win")!= -1) {
-                  document.body.innerHTML=
-                  <div class="main-button">
-                  <div class="scroll-to-section"><a href="#section2">Informacion</a>
-                  </div>
-                  </div>
+                  document.getElementById('boton').style.display='block';
+  
                 }
               }
               window.onload = load;
             </script>
+                             <div id="boton" style="display:none;" class="main-button">
+                              <div class="scroll-to-section"><a href="#section2">Informacion</a>
+                              </div>
+                              </div>
           </div>
         </div>
         <div class="col-md-6">
